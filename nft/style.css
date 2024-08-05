@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    margin-block: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(224, 222, 223, 0.2);
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.content {
+   /* padding-left: 20px; */
+   padding-bottom: 30px;
+}
+.text h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-left: 20px;
+}
+
+.equil {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.equil span {
+    display: block;
+    
+}
+
+.icons {
+    display: flex;
+    gap: 7rem;
+    padding-left: 20px;
+}
+
+.icons p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.icons p:nth-child(1) {
+    color: hsl(178, 100%, 50%);
+}
+
+.icons p:nth-child(1)+p {
+    color: hsl(215, 51%, 70%);
+}
+
+
+.icons img {
+    height: 15px;
+    width: 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.border {
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.person img {
+    height: 30px;
+    width: 30px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.person p {
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+}
+
+.person p  span{
+    color: white;
+}
